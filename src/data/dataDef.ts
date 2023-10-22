@@ -21,7 +21,7 @@ export interface HomepageMeta {
  * Hero section
  */
 export interface Hero {
-  imageSrc: string;
+  imageSrc: string  ;
   name: string;
   description: JSX.Element;
   actions: HeroActionItem[];
@@ -89,6 +89,7 @@ export interface PortfolioItem {
 export interface TimelineItem {
   date: string;
   location: string;
+  University: string;
   title: string;
   content: JSX.Element;
 }
