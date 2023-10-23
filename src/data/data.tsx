@@ -34,7 +34,7 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-  SkillGroup,
+  //SkillGroup,
   Social,
   // TestimonialSection,
   TimelineItem,
@@ -86,7 +86,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/19vepNI_8_rWizTwQSSZj76Z4pziX8614/view?usp=sharing',
       text: 'Resume / CV',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -118,7 +118,20 @@ export const aboutData: About = {
 /**
  * Skills section
  */
-export const skills: SkillGroup[] = [
+
+<p>Javascript, Python, Cpp, Java, C, Django
+MongoDB, SQL, MySQL, Hadoop, HIve, HDFS
+Linux, Git, GitHub, Docker
+AWS, GCP
+Languages and Framework :
+ML and DL Libraries :
+Pytorch, Tensorflow, OpenCV, Pandas, NumPy
+NLP Libraries and Visulatation :
+Matplotlib, Seaborn, Power Bi, Tableau
+Database and Big Data :
+Cloud:
+Others:</p>
+/* export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
     skills: [
@@ -187,7 +200,7 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
-];
+]; */
 
 /**
  * Portfolio section
