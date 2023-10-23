@@ -1,8 +1,9 @@
 {
   "homepage": "https://rafey1104.github.io/Portfolio/",
-  "name": "react-resume-template",
+  "name": "portfolio",
   "version": "2.0.0",
   "private": true,
+  "main": "./src/index.js",
   "scripts": {
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
