@@ -10,7 +10,6 @@
     "compile": "yarn run -T tsc --build --verbose",
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
-   
     "sitemap": "yarn next-sitemap",
     "predeploy": "yarn dev",
     "deploy": "gh-pages -d out",
