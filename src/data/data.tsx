@@ -74,7 +74,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">A Python Developer / Data Scientist</strong>, currently working
-        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in Data Science field .
+        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in AI. <strong className="text-stone-100">Reachout</strong> to me for an Interview and please guage how my skillset could be valuable for your Org.  
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,
@@ -104,14 +104,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Aspiring Data Scientist with 6 months of Python experience through open source contributions. proficient in ML (PyTorch & TensorFlow). Have provided my clients with software solutions in the past. Dedicated to provide data-driven solutions, visualization, and strategic decision-making for complex business challenges`,
+  description: `Aspiring AI Scientist with 6 months of Python experience through open source contributions. proficient in ML (PyTorch & TensorFlow). Have provided my clients with software solutions in the past. Dedicated to provide data-driven solutions, visualization, and strategic decision-making for complex business challenges`,
   aboutItems: [
     {label: 'Location', text: 'Hyderabad, India', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'F1, MMA', Icon: SparklesIcon},
     {label: 'Study', text: 'Osmania University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Looking out for jobs as Data Scientist', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Looking out for jobs in AI', Icon: BuildingOffice2Icon},
   ],
 };
 
