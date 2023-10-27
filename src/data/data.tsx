@@ -74,14 +74,15 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">A Python Developer / Data Scientist</strong>, currently working
-        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in AI. <strong className="text-stone-100">Reachout</strong> to me for an Interview and please guage how my skillset could be valuable for your Org.  
+        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in AI.   
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,
         watching <strong className="text-stone-100">F1 races</strong>, or exploring / traveling {' '}
         <strong className="text-stone-100">The World</strong>.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">Feel free to reach me out at my email --- syedrafey448@gmail.com</p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg"><strong className="text-stone-100">Feel free</strong> to reachout to me for an Interview(syedrafey448@gmail.com) and please guage how my skillset could be valuable for your Org. </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">One Fine day I will go from <strong className="text-stone-100">Looking for Job</strong> to <strong className="text-stone-100">Currently working</strong> to <strong className="text-stone-100">Currently hiring</strong>😃🤞🏻</p>
     </>
   ),
   actions: [
