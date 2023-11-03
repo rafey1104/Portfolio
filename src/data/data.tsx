@@ -74,7 +74,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         <strong className="text-stone-100">A Self taught Full-Stack Developer</strong>, currently working
-        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in AI.   
+        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in Full-Stack Developer/Backend Developer.   
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,
@@ -237,20 +237,20 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage5,
   // },
   {
-    title: 'Instagram Playstore Review Analysis',
-    description: 'Performed Sentiment Analysis on Instagram Playstore reviews dataset using Hugging Face Transformer.',
-    url: 'https://github.com/rafey1104/Sentiment_Analysis_Hugging_Face_Transformers',
+    title: 'Supply Chain Management',
+    description: 'Observer Design Pattern was applied in the development of the supply chain management.',
+    url: 'https://github.com/rafey1104/Supply_Chain_Management',
     image: porfolioImage3,
   },
   {
-    title: 'Covid-19 Detection Using Pytorch',
-    description: 'Developed a PyTorch-based COVID-19 Detection System',
-    url: 'https://github.com/rafey1104/Detecting_COV19_PyTorch',
+    title: 'Real-time Analytics Dashboard ',
+    description: 'Created a real-time analytics dashboard that allows businesses to monitor and visualize key performancemetrics in real-time, enabling data-driven decisionmaking.',
+    url: '',
     image: porfolioImage6,
   },
   {
-    title: 'Career Guidence System',
-    description: 'Developed a career guidance system using ML algorithms- SVM, XG Boost, Decision Tree.',
+    title: 'Safe Search Detection',
+    description: 'Used Google Cloud Vision API which provides safe search detection for explicit content in images returning likelihood scores for each category',
     url: 'https://github.com/rafey1104/Career-Guidance-System-ML',
     image: porfolioImage7,
   },
