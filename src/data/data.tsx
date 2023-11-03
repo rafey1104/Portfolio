@@ -87,7 +87,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/19vepNI_8_rWizTwQSSZj76Z4pziX8614/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1SPMPi_Y5LTclJr_UzLv4SNi31wbosWwE/view?usp=sharing',
       text: 'Resume / CV',
       primary: true,
       Icon: ArrowDownTrayIcon,
