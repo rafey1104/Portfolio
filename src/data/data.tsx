@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">A Python Developer / Data Scientist</strong>, currently working
+        <strong className="text-stone-100">A Self taught Full-Stack Developer</strong>, currently working
         on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in AI.   
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -105,14 +105,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Aspiring AI Scientist with 6 months of Python experience through open source contributions. proficient in ML (PyTorch & TensorFlow). Have provided my clients with software solutions in the past. Dedicated to provide data-driven solutions, visualization, and strategic decision-making for complex business challenges`,
+  description: `A freelance backend developer with half a year of experience, with a strong
+  proficiency in the MERN Stack. Successfully delivered backend software solutions
+  to clients using a tech stack that includes JavaScript, TypeScript, Node.js, Nest.js,
+  Postgres, RabbitMQ, and Docker. Proficient in building RESTful microservice
+  architectures and eager to adapt and learn new technologies as per the specific
+  needs of each company.`,
   aboutItems: [
     {label: 'Location', text: 'Hyderabad, India', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'F1, MMA', Icon: SparklesIcon},
     {label: 'Study', text: 'Osmania University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Looking out for jobs in AI', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Looking out for jobs as a Full-Stack Developer/Backend Developer', Icon: BuildingOffice2Icon},
   ],
 };
 
