@@ -251,7 +251,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Safe Search Detection',
     description: 'Used Google Cloud Vision API which provides safe search detection for explicit content in images returning likelihood scores for each category',
-    url: 'https://github.com/rafey1104/Career-Guidance-System-ML',
+    url: 'https://github.com/rafey1104/SafeSearch',
     image: porfolioImage7,
   },
   // {
