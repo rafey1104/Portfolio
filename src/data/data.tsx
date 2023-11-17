@@ -73,8 +73,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">A Self taught Full-Stack Developer</strong>, currently working
-        on <strong className="text-stone-100">Freelance Projects</strong>, contributing to Open-Source, and looking out for a job in Full-Stack Developer/Backend Developer.   
+        <strong className="text-stone-100">A Self taught Software Developer with over a year of experience</strong>, currently working
+        at <strong className="text-stone-100">Olive Ideas Lab, Hyd, India and looking out for new opportunities.</strong> 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,
@@ -82,7 +82,7 @@ export const heroData: Hero = {
         <strong className="text-stone-100">The World</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg"><strong className="text-stone-100">Feel free</strong> to reachout to me for an Interview(syedrafey448@gmail.com) and please guage how my skillset could be valuable for your Org. </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">One Fine day I will go from <strong className="text-stone-100">Looking for Job</strong> to <strong className="text-stone-100">Currently working</strong> to <strong className="text-stone-100">Currently hiring</strong>😃🤞🏻</p>
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">One Fine day I will go from <strong className="text-stone-100">Looking for Job</strong> to <strong className="text-stone-100">Currently working</strong> to <strong className="text-stone-100">Currently hiring</strong>😃🤞🏻</p> */}
     </>
   ),
   actions: [
@@ -105,9 +105,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `A freelance backend developer with half a year of experience, with a strong
+  description: `A Software developer with a year of experience. Having a strong
   proficiency in the MERN Stack. Successfully delivered backend software solutions
-  to clients using a tech stack that includes JavaScript, TypeScript, Node.js, Nest.js,
+  to clients of Olive Ideas Lab using a tech stack that includes JavaScript, TypeScript, Node.js, Nest.js,
   Postgres, RabbitMQ, and Docker. Proficient in building RESTful microservice
   architectures and eager to adapt and learn new technologies as per the specific
   needs of each company.`,
@@ -117,7 +117,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'F1, MMA', Icon: SparklesIcon},
     {label: 'Study', text: 'Osmania University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Looking out for jobs as a Full-Stack Developer/Backend Developer', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Looking out for new opportunities as a Software Developer', Icon: BuildingOffice2Icon},
   ],
 };
 
