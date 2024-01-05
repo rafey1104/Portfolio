@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">A Self taught Software Developer with over a year of experience</strong>, currently working
+        <strong className="text-stone-100">A Self trained Software Developer with over a year of experience</strong>, currently working
         at <strong className="text-stone-100">Olive Ideas Lab, Hyd, India and looking out for new opportunities.</strong> 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
