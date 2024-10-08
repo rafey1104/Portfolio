@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Developer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://unpkg.com/notation.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Hello! I'm [Your Name], a <span class="highlight" id="developer-text">developer</span> based in [Location].</h1>
-  </header>
-  
-  <section id="about">
-    <p>I love building tools that are <span class="highlight" id="highlight1">user-friendly</span>, <span class="highlight" id="highlight2">simple</span>, and <span class="highlight" id="highlight3">delightful</span>.</p>
-    <p>I was a student at [School Name], learning the fundamentals of <span class="highlight" id="highlight4">front-end</span> and <span class="highlight" id="highlight5">back-end development</span>. I have worked on both small and large teams, always focusing on <span class="highlight" id="highlight6">collaboration</span>, <span class="highlight" id="highlight7">clarity</span>, and <span class="highlight" id="highlight8">flexibility</span>.</p>
-    <p>I’m currently looking for a new role as a developer. <a href="#">Hire me?</a></p>
-    <div class="links">
-      <a href="#">View LinkedIn</a>
-      <a href="#">View GitHub</a>
-    </div>
-  </section>
+    <header>
+        <a href="#" class="logo">Rafay</a>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Some of the side projects I'm currently working on:</p>
-    <!-- Add your projects here -->
-  </section>
-
-  <script src="script.js"></script>
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <!-- <div class="home-img">
+            <img src="assets/profile_pic.png" alt="Rafey">
+        </div> -->
+        <div class="home-container">
+            <div><img class="home-img" src="assets/profile_pic.png" alt="Profile Image"></div>
+            <div class="home-content">
+                <h1>Hi, It's <span>Rafay Ahmed</span></h1>
+                <h3 class="typing-text">I'm a <span></span></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+          </div>
+    </section>
+    <script type="module">
+        import { annotate } from 'https://unpkg.com/annotate-js?module';
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
