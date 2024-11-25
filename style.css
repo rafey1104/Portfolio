@@ -282,3 +282,11 @@ section{
         margin-top: 4rem;
     }
 }
+
+.colored-link {
+    color: whitesmoke; /* Change this to your desired color */
+    text-decoration: none; /* Remove underline */
+}
+.colored-link:hover {
+    color: #b74b4b; /* Change color on hover */
+}

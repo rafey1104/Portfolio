@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Rafay Ahmed</a>
+        <a href="#" class="logo">Rafe Ahmed</a>
 
         <nav>
             <a href="#" class="active"> Home</a>
@@ -18,21 +18,22 @@
             <a href="#" >Skills</a>
             <a href="#" >Education</a>
             <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="mailto:syedrafey448@gmail.com" target="_blank">Contact</a>
         </nav>
     </header>
     <section class="home">
         <div class="home-container">
             <div><img class="home-img" src="assets/profile_pic.png" alt="Profile Image"></div>
             <div class="home-content">
-                <h3>Hello, I'm <span>Rafay</span>, a <span id="dev-annotation" style="color: white;">developer</span> based in <span id="country-annotation" style="color: white;">Germany</span>.</h3>
+                <h3>Hello, I'm <span>Rafe</span>, a <span id="dev-annotation" style="color: white;">developer</span> based in <span id="country-annotation" style="color: white;">Germany</span>.</h3>
                 <h3 class="typing-text">I'm a <span></span></h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+                <p> I have over<span id="experience-annonation" style="color: white;">3 years</span> of experience in software development. Currently enrolled in my first semester of MSc in Information and Communication Engineering at <a href="https://www.tu-darmstadt.de" class="colored-link" target="_blank">TU Darmstadt</a> . looking to make a transition as a Robotic Software Engineer</p>
+                <p> I am Currently working on <span id="skills">ROS2, Gazebo, Python, C++</span></p>
                 <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rafey-ahmed-8b49a5299/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/rafey1104" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/Rafey1104" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <!--<a href="#"><i class="fa-brands fa-instagram"></i></a> -->
                 </div>
                 <a href="#" class="btn">Download CV</a>
             </div>
@@ -52,6 +53,19 @@
 
             const contAnno = annotate(contry, { type: 'circle', color:'grey'});
             contAnno.show();
+
+            const exp = document.getElementById('experience-annonation');
+
+            const expAnno = annotate(exp, {type: 'box', color: 'yellow', animationDuration: 10});
+
+            expAnno.show();
+
+            const skl = document.getElementById('skills');
+
+            const sklAnno = annotate(skl, {type: 'underline', color: 'grey'});
+            
+            sklAnno.show();
+
         };
     </script>
     <script src="script.js"></script>
